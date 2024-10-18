@@ -1,0 +1,30 @@
+[
+    {
+     "productid" : "1234" ,
+     "productname" : "Facewash" ,
+     "Price": 900,
+     "ProductStock": 12,
+     "productCategory" : "skincare"
+
+    },
+    {
+        "productid" : "1234" ,
+        "productname" : "Facewash" ,
+        "Price": 900,
+        "ProductStock": 12,
+        "productCategory" : "skincare"
+   
+       },
+ 
+       {
+        "productid" : "1234" ,
+        "productname" : "Facewash" ,
+        "Price": 900,
+        "ProductStock": 12,
+        "productCategory" : "skincare"
+   
+       }
+    
+ 
+
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+     let cat ={
+            "name" :" cat" ,
+            "color" : "black" ,
+            "num " : 7
+
+
+     }
+
+   console.log("Before conversion" + typeof(cat));
+
+   localStorage.setItem("animal", cat);
+
+   let animal = JSON.stringify(cat)
+   
+   console.log("after conversion" + typeof(cat));
+
+   localStorage.setItem("xyz", animal);
+
+
+   let abc = JSON.parse(localStorage.getItem("xyz"));
+   console.log(typeof(abc))
+
+   console.log(cat.name)
+
+   
+
+   
+   
+   
+
+
+
+    </script>
+</body>
+</html>
